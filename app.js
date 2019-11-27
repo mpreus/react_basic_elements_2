@@ -3,15 +3,15 @@ class App extends React.Component {
     value: "" 
   }
 
-  handleInputChange = (e) => {
-    // console.log(e.target.value); shows entered text 
-    this.setState({           /* state changes while user enters new letters */
+  handleInputChange = (e) => {        /* event object needed for change handle */
+    // console.log(e.target.value); shows entered text while typing
+    this.setState({                   /* state changes while user enters new letters */
       value: e.target.value 
     })
   }
 
   handleResetClick = () => {
-    this.setState({           /* state changes when user resets the input */
+    this.setState({                   /* state changes when user resets the input */
       value: ""
     })
   }
