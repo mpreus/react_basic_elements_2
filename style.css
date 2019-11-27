@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    overflow: hidden;
+}
+h1 {
+	font-size: 50px;
+	text-transform: uppercase;
+}
+/* formatting the text that appears on the screen */
+.title {
+    font-family: arial;
+    font-size: 40px;
+    color: navy;
+    padding: 30px;
+    
+}
+/* keeping the same appearance for 'input' and 'button'  */
+input[type="text"], button {
+	padding: 10px 30px;
+	border: 2px solid black ;
+	font-size: 30px;
+	outline: none;
+}
