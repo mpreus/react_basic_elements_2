@@ -1,11 +1,18 @@
 body {
-    text-align: center;
     overflow: hidden;
+    text-align: center;   
 }
+/* title of the site */
 h1 {
 	font-size: 50px;
 	text-transform: uppercase;
 }
+
+/* text clarifying the purpos of the page */
+p {
+	font-size: 20px;
+}
+
 /* formatting the text that appears on the screen */
 .title {
     font-family: arial;
@@ -14,7 +21,8 @@ h1 {
     padding: 30px;
     
 }
-/* keeping the same appearance for 'input' and 'button'  */
+
+/* keeping the same appearance for 'input' and 'button' */
 input[type="text"], button {
 	padding: 10px 30px;
 	border: 2px solid black ;
